@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ShowCheckBoxes="false">
+  <TopNode>[0-1025]G:\intech\Exo1_1\ITI.SimpleRecipes.Tests\bin\Debug\ITI.SimpleRecipes.Tests.dll</TopNode>
+  <SelectedNode>[0-1025]G:\intech\Exo1_1\ITI.SimpleRecipes.Tests\bin\Debug\ITI.SimpleRecipes.Tests.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1025]G:\intech\Exo1_1\ITI.SimpleRecipes.Tests\bin\Debug\ITI.SimpleRecipes.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1026]ITI" Expanded="true" />
+    <Node UniqueName="[0-1027]ITI.SimpleRecipes" Expanded="true" />
+    <Node UniqueName="[0-1028]ITI.SimpleRecipes.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]ITI.SimpleRecipes.Tests.PublicModelChecker" Expanded="true" />
+    <Node UniqueName="[0-1014]ITI.SimpleRecipes.Tests.T1IngredientManagement" Expanded="true" />
+    <Node UniqueName="[0-1020]ITI.SimpleRecipes.Tests.T1RecipeManagement" Expanded="true" />
+    <Node UniqueName="[0-1010]ITI.SimpleRecipes.Tests.T3RecipeWithIngredient" Expanded="true" />
+    <Node UniqueName="[0-1007]ITI.SimpleRecipes.Tests.T4CorstOfRecipe" Expanded="true" />
+    <Node UniqueName="[0-1003]ITI.SimpleRecipes.Tests.T5TrackingRemovedObjects" Expanded="true" />
+  </Nodes>
+</VisualState>

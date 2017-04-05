@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\intech\Exo1_1\ITI.SimpleRecipes.Tests\bin\Debug\ITI.SimpleRecipes.Tests.dll" total="19" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-04-03" time="12:07:48">
+  <environment nunit-version="2.6.4.14350" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\intech\Exo1_1\ITI.SimpleRecipes.Tests\bin\Debug" machine-name="SAM_INFO_26" user="DURO" user-domain="SAFO" />
+  <culture-info current-culture="fr-FR" current-uiculture="fr-FR" />
+  <test-suite type="Assembly" name="D:\intech\Exo1_1\ITI.SimpleRecipes.Tests\bin\Debug\ITI.SimpleRecipes.Tests.dll" executed="True" result="Failure" success="False" time="30.393" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ITI" executed="True" result="Failure" success="False" time="30.380" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="SimpleRecipes" executed="True" result="Failure" success="False" time="30.379" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="30.378" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="PublicModelChecker" executed="True" result="Success" success="True" time="0.984" asserts="0">
+                    <results>
+                      <test-case name="ITI.SimpleRecipes.Tests.PublicModelChecker.public_API_is_not_modified" executed="True" result="Success" success="True" time="0.708" asserts="0" />
+                      <test-case name="ITI.SimpleRecipes.Tests.PublicModelChecker.write_current_public_API_to_console_with_double_quotes" executed="True" result="Success" success="True" time="0.204" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="T1IngredientManagement" executed="True" result="Success" success="True" time="18.669" asserts="0">
+                    <results>
+                      <test-case name="ITI.SimpleRecipes.Tests.T1IngredientManagement.t1_creating_ingredients" executed="True" result="Success" success="True" time="13.114" asserts="8" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T1IngredientManagement.t2_ingredient_names_must_be_valid" executed="True" result="Success" success="True" time="2.333" asserts="2" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T1IngredientManagement.t3_ingredient_prices_must_be_greater_than_MinimalPrice" executed="True" result="Success" success="True" time="3.188" asserts="7" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T1IngredientManagement.t4_ingredients_can_be_found_by_their_names" executed="True" result="Success" success="True" time="0.010" asserts="11" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T1IngredientManagement.t5_ingredients_can_be_removed_from_kitchen" executed="True" result="Success" success="True" time="0.004" asserts="22" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="T1RecipeManagement" executed="True" result="Success" success="True" time="2.012" asserts="0">
+                    <results>
+                      <test-case name="ITI.SimpleRecipes.Tests.T1RecipeManagement.t1_creating_recipes" executed="True" result="Success" success="True" time="0.004" asserts="8" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T1RecipeManagement.t2_recipes_names_must_be_valid" executed="True" result="Success" success="True" time="1.990" asserts="2" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T1RecipeManagement.t3_recipes_can_be_found_by_their_names" executed="True" result="Success" success="True" time="0.003" asserts="11" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T1RecipeManagement.t4_recipes_can_be_removed_from_kitchen" executed="True" result="Success" success="True" time="0.003" asserts="22" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="T3RecipeWithIngredient" executed="True" result="Success" success="True" time="5.774" asserts="0">
+                    <results>
+                      <test-case name="ITI.SimpleRecipes.Tests.T3RecipeWithIngredient.t1_adding_ingredients_to_recipes" executed="True" result="Success" success="True" time="0.004" asserts="10" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T3RecipeWithIngredient.t2_ingredients_quantity_must_be_positive" executed="True" result="Success" success="True" time="5.748" asserts="8" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T3RecipeWithIngredient.t3_ingredients_can_be_removed_from_a_recipe" executed="True" result="Success" success="True" time="0.007" asserts="42" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="T4CorstOfRecipe" executed="True" result="Success" success="True" time="0.024" asserts="0">
+                    <results>
+                      <test-case name="ITI.SimpleRecipes.Tests.T4CorstOfRecipe.t1_cost_of_a_recipe_is_the_sum_of_the_ingredient_costs_with_their_quantities" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T4CorstOfRecipe.t2_cost_of_a_recipe_depends_on_the_cost_of_the_ingredients_and_their_quantities" executed="True" result="Success" success="True" time="0.014" asserts="21" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="T5TrackingRemovedObjects" executed="True" result="Failure" success="False" time="2.678" asserts="0">
+                    <results>
+                      <test-case name="ITI.SimpleRecipes.Tests.T5TrackingRemovedObjects.t1_removed_recipe_has_null_context" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T5TrackingRemovedObjects.t2_removed_ingredient_in_recipe_has_null_recipe_and_access_to_its_quantity_throws_an_invalid_operation_exception" executed="True" result="Success" success="True" time="1.837" asserts="7" />
+                      <test-case name="ITI.SimpleRecipes.Tests.T5TrackingRemovedObjects.t3_removing_an_ingredient_from_the_kitchen_removes_it_from_all_the_recipes_that_used_it" executed="True" result="Failure" success="False" time="0.827" asserts="11">
+                        <failure>
+                          <message><![CDATA[  Expected: 1
+  But was:  2
+]]></message>
+                          <stack-trace><![CDATA[à ITI.SimpleRecipes.Tests.T5TrackingRemovedObjects.t3_removing_an_ingredient_from_the_kitchen_removes_it_from_all_the_recipes_that_used_it() dans D:\intech\Exo1_1\ITI.SimpleRecipes.Tests\T5TrackingRemovedObjects.cs:ligne 81
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

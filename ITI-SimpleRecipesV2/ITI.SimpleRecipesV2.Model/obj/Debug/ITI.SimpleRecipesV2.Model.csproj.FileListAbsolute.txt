@@ -1,0 +1,10 @@
+C:\Users\duro\Documents\ProjetIntech\projet2\ITI.SimpleRecipesV2.Model\bin\Debug\ITI.SimpleRecipes.Model.dll
+C:\Users\duro\Documents\ProjetIntech\projet2\ITI.SimpleRecipesV2.Model\bin\Debug\ITI.SimpleRecipes.Model.pdb
+C:\Users\duro\Documents\ProjetIntech\projet2\ITI.SimpleRecipesV2.Model\obj\Debug\ITI.SimpleRecipes.Model.dll
+C:\Users\duro\Documents\ProjetIntech\projet2\ITI.SimpleRecipesV2.Model\obj\Debug\ITI.SimpleRecipes.Model.pdb
+C:\Users\duro\Documents\ProjetIntech\projet2\ITI.SimpleRecipesV2.Model\obj\Debug\ITI.SimpleRecipesV2.Model.csprojResolveAssemblyReference.cache
+D:\intech\Exo2_2\ITI.SimpleRecipesV2.Model\bin\Debug\ITI.SimpleRecipes.Model.dll
+D:\intech\Exo2_2\ITI.SimpleRecipesV2.Model\bin\Debug\ITI.SimpleRecipes.Model.pdb
+D:\intech\Exo2_2\ITI.SimpleRecipesV2.Model\obj\Debug\ITI.SimpleRecipes.Model.dll
+D:\intech\Exo2_2\ITI.SimpleRecipesV2.Model\obj\Debug\ITI.SimpleRecipes.Model.pdb
+D:\intech\Exo2_2\ITI.SimpleRecipesV2.Model\obj\Debug\ITI.SimpleRecipesV2.Model.csprojResolveAssemblyReference.cache
